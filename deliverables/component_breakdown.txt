@@ -1,0 +1,13 @@
+Net Profit Margin Calculator
+    ->Landing Page
+        ->Header
+            ->Currency(props:typeOfMoney)
+        ->Product Description
+        ->Card
+            ->Expenses(props:expensesName,expensesAmount,totalExpensesAmount)
+            ->Calculator(props:revenue,totalExpensesAmount)
+                ->Export(props:expensesName,expensesAmount,revenue,netProfitMargin)
+        ->Line Chart
+        ->Feedback
+        ->Footer
+    ->PDF(props:expensesName,expensesAmout,revenue,netProfitMargin)
